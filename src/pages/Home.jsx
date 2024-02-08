@@ -101,21 +101,21 @@ function Home() {
           <div className=" w-[100%] py-10 flex justify-between">
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="" alt="" />
+                <img src="src\assets\priyanka.jpg" alt="" />
               </div>
               <span className=" text-center">Priyanka Thorat</span>
               <span className=" text-center">Electronics & Telecommunication</span>
             </div>
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="" alt="" />
+                <img src="src\assets\naina.jpg" alt="" />  
               </div>
               <span className=" text-center">Naina Rambad</span>
               <span className=" text-center">Electronics & Telecommunication</span>
             </div>
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="" alt="" />
+                <img src="src\assets\shreya.jpg" alt="" />
               </div>
               <span className=" text-center">Shreya Lagad</span>
               <span className=" text-center">Electronics & Telecommunication</span>        
