@@ -118,14 +118,7 @@ function Home() {
                 <img src="" alt="" />
               </div>
               <span className=" text-center">Name</span>
-              <span className=" text-center">Branch</span>
-            </div>
-            <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
-              <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="" alt="" />
-              </div>
-              <span className=" text-center">Name</span>
-              <span className=" text-center">Branch</span>
+              <span className=" text-center">Branch</span>        
             </div>
           </div>
         </section>
