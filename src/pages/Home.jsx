@@ -40,11 +40,7 @@ function Home() {
             </button>
           </div>
           <div className=" w-[60%] rounded-3xl h-[00px] flex justify-center items-center">
-            <img
-              className=" w-[100%] z-30"
-              src="public\assets\Group19.png"
-              alt=""
-            />
+            <img className=" w-[100%] z-30" src="assets\Group19.png" alt="" />
           </div>
         </section>
       </div>
