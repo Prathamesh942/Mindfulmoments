@@ -59,7 +59,7 @@ function Home() {
             </p>
           </div>
           <div className=" w-[50%]">
-            <img className="" src="public\assets\work.png" alt="" />
+            <img className="" src="assets\work.png" alt="" />
           </div>
         </section>
         <section className=" flex flex-row-reverse justify-end">
@@ -76,7 +76,7 @@ function Home() {
             </p>
           </div>
           <div className=" w-[50%]">
-            <img className="" src="public\assets\vision.png" alt="" />
+            <img className="" src="assets\vision.png" alt="" />
           </div>
         </section>
         <section className=" text-center" id="about">
@@ -98,7 +98,7 @@ function Home() {
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
                 <img
-                  src="public\assets\1.png"
+                  src="assets\1.png"
                   alt=""
                   className="w-[100%] aspect-square  object-cover rounded-2xl"
                 />
@@ -111,7 +111,7 @@ function Home() {
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
                 <img
-                  src={"public/assets/2.png"}
+                  src="assets\2.png"
                   alt=""
                   className="w-[100%] aspect-square  object-cover rounded-2xl"
                 />
@@ -124,7 +124,7 @@ function Home() {
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
                 <img
-                  src="public\assets\3.png"
+                  src="assets\3.png"
                   alt=""
                   className=" w-[100%] aspect-square object-cover rounded-2xl"
                 />
