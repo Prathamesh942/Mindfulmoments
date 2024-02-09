@@ -12,7 +12,7 @@ function Input() {
       <div className=" absolute  top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] w-[60%] h-[400px] flex justify-center items-center">
         <img
           className=" rounded-2xl blur-[1px] absolute -z-10 "
-          src="src\assets\hands.gif"
+          src="assets\hands.gif"
           alt=""
         />
         <div className="w-[60%] h-[60px] rounded-lg flex bg-white">
