@@ -101,24 +101,42 @@ function Home() {
           <div className=" w-[100%] py-10 flex justify-between">
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="src\assets\1.png" alt="" />
+                <img
+                  src="src\assets\1.png"
+                  alt=""
+                  className="w-[100%] aspect-square  object-cover rounded-2xl"
+                />
               </div>
-              <span className=" text-center">Priyanka Thorat</span>
-              <span className=" text-center">Electronics & Telecommunication</span>
+              <span className=" text-center font-bold">Priyanka Thorat</span>
+              <span className=" text-center">
+                Electronics & Telecommunication
+              </span>
             </div>
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="src\assets\2.png" alt="" />  
+                <img
+                  src={"src/assets/2.png"}
+                  alt=""
+                  className="w-[100%] aspect-square  object-cover rounded-2xl"
+                />
               </div>
-              <span className=" text-center">Naina Rambad</span>
-              <span className=" text-center">Electronics & Telecommunication</span>
+              <span className=" text-center font-bold">Naina Rambad</span>
+              <span className=" text-center">
+                Electronics & Telecommunication
+              </span>
             </div>
             <div className=" flex flex-col p-2 rounded-2xl gap-1 w-[24%] aspect-square bg-[#ffffff] ">
               <div className=" bg-zinc-600 rounded-2xl w-[100%] aspect-square">
-                <img src="src\assets\3.png" alt="" />
+                <img
+                  src="src\assets\3.png"
+                  alt=""
+                  className=" w-[100%] aspect-square object-cover rounded-2xl"
+                />
               </div>
-              <span className=" text-center">Shreya Lagad</span>
-              <span className=" text-center">Electronics & Telecommunication</span>        
+              <span className=" text-center font-bold">Shreya Lagad</span>
+              <span className=" text-center">
+                Electronics & Telecommunication
+              </span>
             </div>
           </div>
         </section>
