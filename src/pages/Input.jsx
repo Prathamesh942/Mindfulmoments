@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState}  from "react";
 import Nav from "../components/Nav";
 import "../App.css";
 import { Link } from "react-router-dom";
 
 function Input() {
+  const [username, setUsername] = useState('');
+
   return (
     <div className="  bg-[rgb(12,16,46)]  w-screen h-screen">
       <Link to="/">
@@ -19,10 +21,12 @@ function Input() {
           <input
             type="text"
             className="w-[100%] h-[100%] bg-transparent p-2 text-2xl outline-none"
-            placeholder="Enter your thread's username"
+            placeholder="Enter your thread's username" 
+            value={username}
+            onChange={(event) => {setUsername(event.target.value)}}
           />
           <Link to="/result">
-            <button className=" h-[100%] px-2 bg-[#3b6af8] text-white border-[5px] rounded-xl">
+            <button className=" h-[100%] px-2 bg-[#3b6af8] text-white border-[5px] rounded-xl" onClick={()=>localStorage.setItem('username',username)}>
               CHECK
             </button>
           </Link>

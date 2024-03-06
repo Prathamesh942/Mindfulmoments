@@ -35,9 +35,11 @@ function Home() {
               </p>
             </div>
 
+            <Link to="/input">
             <button className=" max-w-[200px] bg-gradient-to-r from-[#5b10f0] to-[#a200ff]  p-3 rounded-3xl text-lg font-semibold text-white">
-              <Link to="/input">Available Now</Link>
+              Available Now
             </button>
+            </Link>
           </div>
           <div className=" w-[60%] rounded-3xl h-[00px] flex justify-center items-center">
             <img className=" w-[100%] z-30" src="assets\Group19.png" alt="" />

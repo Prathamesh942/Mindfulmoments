@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Splash from "./pages/Splash";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Result from "./pages/Result";
-import About from "./pages/About";
 import Input from "./pages/Input";
 
 const router = createBrowserRouter([
